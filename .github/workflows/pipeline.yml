@@ -8,6 +8,8 @@ jobs:
   integration:
     name: Continuous Integration
     runs-on: ubuntu-latest
+    environment:
+      name: dev
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
