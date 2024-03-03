@@ -18,4 +18,4 @@ jobs:
         with:
           username: ${{ secrets.ATLAS_USERNAME }}
           password: ${{ secrets.ATLAS_PASSWORD }}
-          registry: hub.docker.com
+          registry: https://index.docker.io/v1/
